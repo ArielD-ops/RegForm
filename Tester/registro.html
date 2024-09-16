@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing up</title>
+    <!-- FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+   
+    <!-- CUSTOM CSS0-->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    
+    <div class="menu-btn">
+        <i class="fas fa-bars fa-2x"></i>
+    </div>
+    
+    <div class="container">
+        <nav class="nav-main">
+            <img src="op.jpeg" class="nav-brand">
+            <ul class="nav-main">
+                <li>
+                    <a href="#">Green</a>
+                </li>
+                <li>
+                    <a href="#">Earth</a>
+                </li>
+                <li>
+                    <a href="#">Tree</a>
+                </li>
+                <li>
+                    <a href="#">Creeper</a>
+                </li>
+                <li>
+                    <a href="#">Climber</a>
+                </li>
+                <li>
+                    <a href="#">Bush</a>
+                </li>
+                <li>
+                    <a href="#">More</a>
+                </li>
+            </ul>
+            <ul class="nav-menu-right">
+                <li>
+                    <a href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+        <br>
+        <br>
+        <br>
+        <br>     
+        <!--SHOWCASE-->
+        <header class="showcase">
+            <form name="RegForm" onsubmit="validacion()">
+                <p>
+                    Usuario:
+                    <input type="text" size="25" 
+                           name="User" id="User"
+                           placeholder="Usuario"/>
+                </p>
+                <p>
+                    Contraseña:
+                    <input type="password" size="25" 
+                           name="Password"/>
+                </p>
+                <p>
+                    Nombre:
+                    <input type="text" size="65" 
+                           name="Name" id="Name"
+                           placeholder="Nombre"/>
+                </p>
+                <p>
+                    Apellido:
+                    <input type="text" size="65" 
+                           name="LastName" id="LastName"
+                           placeholder="Apellido"/>
+                </p>
+                <p>
+                    DNI:
+                    <input type="text" size="25" 
+                           name="Dni" id="Dni" 
+                           placeholder="Number"/>
+                </p>
+                <p>
+                    Fecha de nacimiento:
+                    <input type="text" size="25" 
+                        name="Bd" id="Bd" 
+                        placeholder="Birthdate"/>
+                </p>
+                <p>
+                    Genero:
+                    <br>
+                    <input type="radio" id="Man" name="Gender" value="Masculino">Masculino 
+                    <input type="radio" id="Women" name="Gender" value="Femenino"> Femenino
+                    <input type="radio" id="Other" name="Gender" value="Otro">Otro
+                </p>
+                <p>
+                    Pais:
+                    <input type="text" size="25" 
+                        name="Country" id="Country" 
+                        placeholder="Nacionalidad"/>
+                </p>
+                <p>
+                    Provincia:
+                    <input type="text" size="25" 
+                        name="Province" id="Province" 
+                        placeholder="Provincia"/>
+                </p>
+                <p>
+                    Localidad:
+                    <input type="text" size="25" 
+                        name="Locality" id="Locality" 
+                        placeholder="Localidad"/>
+                </p>
+                <p>
+                    Telefono:
+                    <input type="text" size="25" 
+                        name="Number" id="Number" 
+                        placeholder="Telefono"/>
+                </p>
+                <p>
+                    Estado Civil:
+                    <br>
+                    <input type="radio" id="Soltero" name="Ms" value="Soltero">Soltero 
+                    <input type="radio" id="Casado" name="Ms" value="Casado">Casado
+                    <input type="radio" id="Divorciado" name="Ms" value="Divorciado">Divorciado
+                </p>
+                <p>
+                    Licencia de conducir:
+                    <br>
+                    <input type="radio" id="Si" name="Dl" value="Si">Si
+                    <input type="radio" id="No" name="Dl" value="No">No
+                </p>
+                <p>
+                    Situacion laboral:
+                    <br>
+                    <input type="radio" id="Empleado" name="Es" value="Empleado">Empleado
+                    <input type="radio" id="Independiente" name="Es" value="Independiente">Independiente
+                    <input type="radio" id="Desempleado" name="Es" value="Desempleado">Desempleado
+                    <input type="radio" id="Otro" name="Es" value="Otro">Otro
+                </p>
+                <p>
+                    Otro:
+                    <input type="text" size="25" 
+                        name="Otro" id="Otro" 
+                        placeholder="Especificar"/>
+                </p>
+                <p>
+                    <input type="submit" value="Send" 
+                           name="Submit" />
+                    <input type="reset" value="Reset" 
+                           name="Reset" />
+                </p>
+            </form>
+        </header>
+
+        <section class="social">
+            <p>Follow Plant</p>
+        </section>
+
+    </div>
+
+    
+
+    <script src="main.js"></script>
+
+    
+</body>
+</html>
